@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage("Run tests") {
             steps {
-                sh "echo 123test-brancыфвыфвфывфывh"
+                sh "echo 123test-branch"
             }
         }
     }
