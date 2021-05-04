@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage("Run tests") {
             steps {
-                sh "echo 123test-branchnew
+                sh "echo 123111"
             }
         }
     }
