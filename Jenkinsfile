@@ -12,4 +12,12 @@ pipeline {
             }
         }
     }
+    post {
+            success {
+              githubNotify context: 'something test', description: 'It works',  status: 'SUCCESS'
+            }
+            failure {
+              githubNotify context: 'something test', description: 'This commit cannot be built',  status: 'FAILED'
+            }
+        }
 }
