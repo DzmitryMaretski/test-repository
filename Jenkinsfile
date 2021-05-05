@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage("Run tests") {
             steps {
-                sh "echo sdf111"
+                sh "echo sdf112312311"
             }
         }
     }
